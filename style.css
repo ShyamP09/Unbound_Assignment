@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 5px 20px;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #ffff;
+}
+
+#logo {
+  height: 100%;
+  margin-left: 30px;
+}
+
+.heroSection {
+  height: 355px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./Assets/MainBanner.png);
+}
+
+span {
+  color: #ffb800;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat";
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.infoSection {
+  margin-top: 30px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.Description {
+  width: 45%;
+}
+
+.contactFrom {
+  height: 530px;
+  width: 450px;
+  padding: 10px 20px;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+}
+
+.formHeading {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: #323334;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+footer {
+  height: 25vh;
+  background: linear-gradient(rgba(1, 93, 132, 0.7), rgba(1, 93, 132, 0.7)),
+    url("./Assets/footer.jpeg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.FirstLast {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+#firstName,
+#lastName,
+#jobTitle,
+#CompanySize,
+#country {
+  border: 1px solid #6b6b6b99;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px 10px;
+  width: 42%;
+}
+
+.fullInput {
+  border: 1px solid #6b6b6b99;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  width: 91%;
+}
+
+.case-study-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.case-study-points li {
+  margin-bottom: 10px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.checkbox-container {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.checkbox-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #555;
+}
+
+#submitButton {
+  width: 25%;
+  padding: 15px;
+  background-color: #ff9a00;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.foooterImg {
+  width: 45vw;
+  margin-left: 0%;
+}
